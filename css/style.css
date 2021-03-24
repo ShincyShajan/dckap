@@ -157,6 +157,9 @@ footer ul {
     #banner p {
         font-size: 14px;
     }
+    .abt-img {
+    height: 30vh;
+    }
     footer ul {
         margin-left: -20px;
     }
