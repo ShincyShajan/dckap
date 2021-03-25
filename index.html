@@ -9,6 +9,7 @@
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -27,10 +28,10 @@
                             </li>
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">About</a>
-                            </li> 
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact</a>
-                            </li> 
+                            </li>
 
                         </ul>
                     </div>
@@ -42,8 +43,8 @@
         <section id="banner">
             <div class="container">
                 <div class="row">
-                    <h1>Amelia Woods</h1>
-                    <p>I am a Graphic & Web Designer based in New York, specializing <span>in User Interface Design and Development.</span></p>
+                    <h1 data-aos="fade-in" data-aos-delay="200">Amelia Woods</h1>
+                    <p data-aos="fade-in" data-aos-delay="200">I am a Graphic & Web Designer based in New York, specializing <span>in User Interface Design and Development.</span></p>
                 </div>
             </div>
         </section>
@@ -53,40 +54,48 @@
         <section id="counter" class="counter sec-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 col-lg-3 d-flex mt-2 mb-2">
-                        <div class="icon">
-                            <i class="fas fa-briefcase"></i>
-                        </div>
-                        <div class="count-up">
-                            <p class="counter-count">548</p>
-                            <h3>projects completed</h3>
-                        </div>
-                    </div>
-                    <div class="col-6 col-lg-3 d-flex mt-2 mb-2">
-                        <div class="icon">
-                            <i class="far fa-clock"></i>
-                        </div>
-                        <div class="count-up">
-                            <p class="counter-count">1468</p>
-                            <h3>WORKING HOURS</h3>
+                    <div class="col-6 col-lg-3 ">
+                        <div class="d-flex mt-2 mb-2" data-aos="fade-up" data-aos-delay="100">
+                            <div class="icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="count-up">
+                                <p class="counter-count">548</p>
+                                <h3>projects completed</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 d-flex mt-2 mb-2">
-                        <div class="icon">
-                            <i class="far fa-star"></i>
-                        </div>
-                        <div class="count-up">
-                            <p class="counter-count">612</p>
-                            <h3>POSITIVE FEEDBACKS</h3>
+                    <div class="col-6 col-lg-3">
+                        <div class="d-flex mt-2 mb-2" data-aos="fade-up" data-aos-delay="150" >
+                            <div class="icon">
+                                <i class="far fa-clock"></i>
+                            </div>
+                            <div class="count-up">
+                                <p class="counter-count">1468</p>
+                                <h3>WORKING HOURS</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 d-flex mt-2 mb-2">
-                        <div class="icon">
-                            <i class="far fa-heart"></i>
+                    <div class="col-6 col-lg-3">
+                        <div class="d-flex mt-2 mb-2" data-aos="fade-up" data-aos-delay="200">
+                            <div class="icon">
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="count-up">
+                                <p class="counter-count">612</p>
+                                <h3>POSITIVE FEEDBACKS</h3>
+                            </div>
                         </div>
-                        <div class="count-up">
-                            <p class="counter-count">735</p>
-                            <h3>HAPPY CLIENTS</h3>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="d-flex mt-2 mb-2" data-aos="fade-up" data-aos-delay="250">
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <div class="count-up">
+                                <p class="counter-count">735</p>
+                                <h3>HAPPY CLIENTS</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -100,10 +109,12 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 abt-img"> </div>
                     <div class="col-12 col-lg-6 sec-padding m-auto">
-                        <h2>About Me</h2>
-                        <p>Given let waters air sea had you'll, may seed abundantly fish. Were, you'll earth forth winged above brought. Own darkness they're him can't fourth sea place have.</p>
-                        <p>So the above May stars cattle fruitful face shall. Tree it, winged. Every signs male firmament us. Morning him.</p>
-                        <img src="images/signature.svg" class="img-fluid" alt="Signature">
+                        <div  data-aos="fade-left" data-aos-delay="200">
+                            <h2 >About Me</h2>
+                            <p>Given let waters air sea had you'll, may seed abundantly fish. Were, you'll earth forth winged above brought. Own darkness they're him can't fourth sea place have.</p>
+                            <p>So the above May stars cattle fruitful face shall. Tree it, winged. Every signs male firmament us. Morning him.</p>
+                            <img src="images/signature.svg" class="img-fluid" alt="Signature">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -115,9 +126,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="cta-content">
+                        <div class="cta-content" data-aos="fade-up">
                             <h2>Need a Project ?</h2>
-                            <p>Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</p> 
+                            <p>Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</p>
                             <div class="mt-5"><a href="#">Let's Talk</a></div>
                         </div>
                     </div>
@@ -179,6 +190,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
     <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js'></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script>
         $('.counter-count').each(function () {
             $(this).prop('Counter',0).animate({
@@ -193,5 +205,7 @@
                 }
             });
         });
+
+        AOS.init();
     </script>
 </html>
